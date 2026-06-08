@@ -6,14 +6,14 @@
     --font-weight-card-text: 410;
     --complex-grid-gradient:
     repeating-linear-gradient(
-        90deg,
+        to left,
         #d3d3d3 0,
         #d3d3d3 2px,
         transparent 2px,
         transparent 4px
 ),
     repeating-linear-gradient(
-        0deg,
+        to bottom,
         #d3d3d3 0,
         #d3d3d3 2px,
         transparent 2px,
@@ -25,4 +25,12 @@
         #1a1a1a 100%
   );
   --block-width: clamp(375px, 50%, 700px);
+  --block-height: clamp(758px, 50%, 956px);
+  --text-outline-color: #fff;
+  --heaart-contour-color: #000;
+  --animation-fill-color: #FF0000;
+  --contour-color: #f00;
+  --heaart-hover-color: #000;
+  --heart-active-color: #f00;
+  --dialog-width: clamp(341px, 50%, 352px)
 }
