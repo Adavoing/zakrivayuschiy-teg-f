@@ -32,5 +32,5 @@
   --contour-color: #f00;
   --heaart-hover-color: #000;
   --heart-active-color: #f00;
-  --dialog-width: clamp(341px, 50%, 352px)
+  --dialog-width: clamp(341px, 50%, 352px);
 }
