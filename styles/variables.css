@@ -33,4 +33,6 @@
   --heaart-hover-color: #000;
   --heart-active-color: #f00;
   --dialog-width: clamp(341px, 50%, 352px);
+  --main-card-font-weight: 400;
+  --card-title-font-weight: 700;
 }
