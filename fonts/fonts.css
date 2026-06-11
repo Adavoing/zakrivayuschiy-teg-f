@@ -6,10 +6,7 @@
     font-style: normal;
     font-display: swap;
     font-weight: 400 785;
-    font-variation-settings: 'wght' var(--main-card-font-weight, 400);
-    font-variation-settings: 'wght' var(--card-title-font-weight, 700);
-
-
+    font-variation-settings: 'wght' var(--font-weight-card-text, 715);
 }
 
 @font-face {
