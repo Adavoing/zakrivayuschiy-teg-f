@@ -13,8 +13,8 @@
 .page {
   min-inline-size: 320px;
   min-block-size: 100dvb;
-  font-family: var(--font-accent), sans-serif;
-  font-variation-settings: var(--font-weight-card-text);
+  font-family: var(--font-primary), sans-serif;
+  font-variation-settings: "wght" var(--font-weight-card-text, 410);
   background-image: var(--complex-grid-gradient);
   background-size: cover;
   background-attachment: fixed;
@@ -106,13 +106,15 @@
 
 .section-title {
   font-family: var(--font-primary), sans-serif;
-  font-weight: var(--font-weight-card-title);
+  font-variation-settings: "wght" var(--font-weight-card-title, 715);
   font-size: 18px;
   vertical-align: middle;
   padding: 4px 10px;
 }
 
 .section_tag {
+  font-family: var(--font-accent), sans-serif;
+  font-weight: 400;
   position: relative;
   border-top: 2px solid #000;
   border-bottom: 2px solid #000;
@@ -147,8 +149,6 @@
 }
 
 .section-text {
-  font-family: var(--font-primary), sans-serif;
-  font-weight: var(--font-weight-card-text);
   font-style: normal;
   font-size: 18px;
   line-height: 21px;
@@ -347,7 +347,6 @@
 
 .button:hover .floppy {
   fill: #fff;
-  mix-blend-mode: difference;
 }
 
 .memory-dialog {
